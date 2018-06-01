@@ -26,5 +26,5 @@ function! CustomizedTabLine()
 endfunction
 
 " Always show the tablilne 
-set stal=2
+"set stal=2
 set tabline=%!CustomizedTabLine()
