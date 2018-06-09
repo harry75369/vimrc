@@ -6,6 +6,7 @@ set cmdheight=1
 set tabstop=2
 set shiftwidth=2
 let g:NERDTreeWinPos = "left"
+let g:NERDTreeQuitOnOpen=1
 let g:gitgutter_enabled = 1
 let g:airline_powerline_fonts = 1
 autocmd FileType vue syntax sync fromstart
