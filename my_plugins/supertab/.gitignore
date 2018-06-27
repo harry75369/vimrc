@@ -2,3 +2,4 @@
 *.vmb
 doc/tags
 /README.html
+.netrwhist
