@@ -29,3 +29,6 @@ func! DeleteTrailingWS()
   exe "normal `z"
 endfunc
 autocmd BufWrite * :call DeleteTrailingWS()
+
+hi Normal ctermbg=none
+hi NonText ctermbg=none
